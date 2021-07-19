@@ -1,70 +1,76 @@
 ##-----------------------------------------------------------------------------
 ##  Import
 ##-----------------------------------------------------------------------------
-import cv2
+from cv2 import imread
+
 import numpy as np
 
 from segment import segment
 from normalize import normalize
-from archtype import archetype
-from archtype import pixel_blocks
-from bit_mask import bit_mask
+from archetype import archetype
+from intervals import apply_bitmask
 
+from bisect import bisect
+
+from math import floor
+
+import hashlib
 
 ##-----------------------------------------------------------------------------
 ##  Function
 ##-----------------------------------------------------------------------------
-img_name = "./img/casia.jpg"
-eyelashes_thres = 80
-use_multiprocess = False
-block_x = 8
-block_y = 4
-n_features = 64
-c = 15
-d = 3.5
+def authentication(img_name, hash, bit_mask, intervals, n_bits):
 
-# Read the images
-img = cv2.imread(img_name, 0)
+    eyelashes_thres = 80
+    use_multiprocess = False
+    block_x = 8
+    block_y = 4
+    #n_features = 64
+    #c = 15
+    #d = 3.5
 
-cv2.imwrite("./img/greyeye.jpg", img)
-cv2.imshow("greyeye", img)
-cv2.waitKey(0)
+    # Read the images
+    img = imread(img_name, 0)
 
-# Identify the iris and the pupil
-ciriris, cirpupil, img_with_noise = segment(img, eyelashes_thres, use_multiprocess)
+    # Identify the iris and the pupil
+    ciriris, cirpupil, img_with_noise = segment(img, eyelashes_thres, use_multiprocess)
 
-cv2.imshow("noisyeye", img_with_noise)
-cv2.waitKey(0)
+    # Normalize iris region by unwraping the circular region into a rectangular block of constant dimensions
+    polar_array, noise_array = normalize(img_with_noise, ciriris[1], ciriris[0], 
+                                        ciriris[2], cirpupil[1], cirpupil[0], 
+                                        cirpupil[2], 64, 256)
 
-output = np.clip(img_with_noise * 255, 0, 255) # proper [0..255] range
-output = output.astype(np.uint8)  # safe conversion
-cv2.imwrite("./img/noisyeye.jpg", output)
+    # Create the archtype
+    arc = archetype(polar_array, block_x, block_y)
 
-# Normalize iris region by unwraping the circular region into a rectangular block of constant dimensions
-polar_array, noise_array = normalize(img_with_noise, ciriris[1], ciriris[0], ciriris[2], 
-                                    cirpupil[1], cirpupil[0], cirpupil[2],
-                                    64, 256)
+    # Apply the bitmask to extract the most reliable features
+    features = apply_bitmask(arc, bit_mask)
 
-cv2.imshow("polar", polar_array)
-cv2.waitKey(0)
+    key = ""
+    format_bits = "{0:0" + str(n_bits) + "b}"
 
-output = np.clip(polar_array * 255, 0, 255) # proper [0..255] range
-output = output.astype(np.uint8)  # safe conversion
-cv2.imwrite("./img/polar.jpg", output)
+    for i in range(len(features)):
 
-# Create the archtype from the first image
-arc = archetype(polar_array, block_x, block_y)
+        x, y = intervals[i]
 
-out = """Archetype:
+        # Find the x-values such that x1 <= features[i] <= x2
+        index = bisect(x, features[i])
+        x1 = x[index-1]
+        x2 = x[index]
 
-       {}
+        if features[i] == x1:
+            key += format_bits.format(y[index-1])
+        elif features[i] == x2:
+            key += format_bits.format(y[index])
+        else:
+            # Linear interpolation
+            y_feature = y[index-1] + (features[i] - x[index-1]) * ((y[index] - y[index-1]) / (x[index] - x[index-1]))
+            y_feature = floor(abs(y_feature))
 
-       """
-print(out.format(arc))
+            key += format_bits.format(y_feature)
 
-cv2.imshow("Archetype", arc)
-cv2.waitKey(0)
-
-output = np.clip(arc * 255, 0, 255) # proper [0..255] range
-output = output.astype(np.uint8)  # safe conversion
-cv2.imwrite("./img/Archetype.jpg", output)
+    if hashlib.sha384(key.encode()).hexdigest() == hash:
+        key_formatted = int(key, 2)
+        return key_formatted
+    else:
+        return "Try again!"

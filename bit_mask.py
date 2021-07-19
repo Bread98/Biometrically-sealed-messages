@@ -22,6 +22,7 @@ from math import log10
 ##      psnr_mean	     - A 2-D array with the PSNR values of each pixel block.
 ##-----------------------------------------------------------------------------
 def bit_mask(archetype, n_features, norm_iris_split):
+    
     n = len(archetype)
     m = len(archetype[0])
     maxI = np.zeros(len(norm_iris_split), dtype=float)   # maximum pixel value
@@ -109,42 +110,3 @@ def bit_mask(archetype, n_features, norm_iris_split):
             l -= 1
     
     return bit_mask, psnr_mean
-
-    
-
-
-
-
-
-
-
-
-
-
-"""    
-def bit_mask(norm_iris_split1, *norm_iris_split):
-    mse = []    # mean squared error
-    maxI = []   # maximum pixel value
-    maxI1 = np.amax(norm_iris_split1)   # maximum pixel value of the first iris image acquired
-    niris = 0   # iris in 'norm_iris_split' currently being processed
-
-    # For each iris texture Ii calculate:
-    # - the mean squared error between I1 and Ii (MSE) 
-    # - the maximum pixel value of both images (maxI) 
-    for iris in norm_iris_split:
-        mse[niris] = 0
-        n = len(iris)
-        m= len(iris[0])
-
-        for y in range(0:n):
-            for x in range(0:m):
-                mse[niris] = mse[niris] + np.linalg.norm(norm_iris_split1[y,x] - iris[y,x])**2
-        
-        mse[niris] = mse[niris] / (n*m)
-
-        maxI[niris] = max(maxI1, np.amax(iris))
-
-        psnr[niris] = 10 * log10(((maxI[niris]**2)/mse[niris]))
-
-        niris = niris + 1
-"""

@@ -101,7 +101,7 @@ def normalize(image, x_iris, y_iris, r_iris, x_pupil, y_pupil, r_pupil, radpixel
 	# polar_array = polar_array / 255
 
 	polar_array = image[yo, xo]
-	polar_array = polar_array / 255
+	#polar_array = polar_array / 255
 
 	# Create noise array with location of NaNs in polar_array
 	polar_noise = np.zeros(polar_array.shape)

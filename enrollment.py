@@ -35,9 +35,6 @@ def enrollment(img_name):
     for i in img_name:
         img.append(imread(i, 0))
 
-    #imshow("greyeye", img[0])
-    #waitKey(0)
-
     # Identify the iris and the pupil
     ciriris = []
     cirpupil = []

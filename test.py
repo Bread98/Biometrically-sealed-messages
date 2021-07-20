@@ -11,8 +11,8 @@ img_name = ["./img/casia1.jpg", "./img/casia2.jpg", "./img/casia3.jpg"]
 
 private_key, public_key, hash, bit_mask, intervals, n_bits = enrollment(img_name)
 
-#print(private_key)
-#print(len(str(private_key)))
+print(private_key)
+print(len(str(private_key)))
 
 #print(hash)
 
@@ -21,17 +21,16 @@ private_key, public_key, hash, bit_mask, intervals, n_bits = enrollment(img_name
 
 print("--------------------------------------------------------------------------")
 
-key = authentication("./img/casia4.jpg", hash, bit_mask, intervals, n_bits)
-
-#print(private_key)
-#print(len(str(private_key)))
+#print(intervals)
 
 print("--------------------------------------------------------------------------")
 
-print(intervals)
+key = authentication("./img/casia4.jpg", hash, bit_mask, intervals, n_bits)
 
+#print(key)
+#print(len(str(key)))
 
-
+print(key)
 """
 eyelashes_thres = 80
 use_multiprocess = False

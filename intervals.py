@@ -29,6 +29,10 @@ def intervals(archetype, bit_mask, psnr, c, d):
     features = apply_bitmask(archetype, bit_mask)
     features_psnr = apply_bitmask(psnr, bit_mask)
 
+    #output = np.array(features) * 255
+    #print(features)
+    #print(output)
+
     # Generate the intervals
     n = len(features)
     left = np.zeros(n, dtype=float)
@@ -39,8 +43,11 @@ def intervals(archetype, bit_mask, psnr, c, d):
         right[i] = features[i] + pow(2, (c/features_psnr[i])) * d 
 
     # Calculate the number of bits necessary to encode an interval
+    min_feature = min(features)
+    max_feature = max(features)
+    feature_space_dim = int((max_feature - min_feature)*255)
     interval_range = int(np.mean(right - left))
-    n_bits = int(log2(256/interval_range)) - 1
+    n_bits = int(log2(feature_space_dim/interval_range))
     format_bits = "{0:0" + str(n_bits) + "b}"
 
     # Define the maximum decimal number that can be generated with n_bits
@@ -72,11 +79,11 @@ def intervals(archetype, bit_mask, psnr, c, d):
         qr = (x[0]*c - right[i]*y[0]) / (x[0] - right[i])
 
         # Choose 2 random points in the lines such that y < c (negative peaks)
-        y.append(random.randint(-max_int, (c-1)))
-        x.append((y[-1] - ql) / ml)
+        x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+        y.append(round(ml * x[-1] + ql))
 
-        y.append(random.randint(-max_int, (c-1)))
-        x.append((y[-1] - qr) / mr)
+        x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+        y.append(round(mr * x[-1] + qr))
 
         # Define the lines symmetric with respect to x = x[-1] | x = x[-2]
         ql += 2*ml*x[-2]
@@ -86,28 +93,15 @@ def intervals(archetype, bit_mask, psnr, c, d):
         mr *= -1
 
         # Add as many fake intervals (peaks) as necessary
-        peak = True
         
         while len(y) < 2**(n_bits+1):
 
-            if peak:
-                # Choose 2 random points (peaks) in the lines such that y < y[-2] (y of the last added left/right negative peak)
-                y.append(random.randint(y[-2], max_int))
-                x.append((y[-1] - ql) / ml)
+            # Choose 2 random points in the defined lines
+            x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+            y.append(round(ml * x[-1] + ql))
 
-                y.append(random.randint(y[-2], max_int))
-                x.append((y[-1] - qr) / mr)
-
-                peak = False
-            else:
-                # Choose 2 random points (negative peaks) in the lines such that y < y[-2] (y of the last added left/right peak)
-                y.append(random.randint(-max_int, y[-2]))
-                x.append((y[-1] - ql) / ml)
-
-                y.append(random.randint(-max_int, y[-2]))
-                x.append((y[-1] - qr) / mr)
-
-                peak = True
+            x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+            y.append(round(mr * x[-1] + qr))
             
             # Define the lines symmetric with respect to x = x[-1] | x = x[-2]
             ql += 2*ml*x[-2]

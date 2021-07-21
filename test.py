@@ -1,8 +1,12 @@
 ##-----------------------------------------------------------------------------
 ##  Import
 ##-----------------------------------------------------------------------------
+import numpy as np
+
 from enrollment import enrollment
 from authentication import authentication
+
+import json
 
 ##-----------------------------------------------------------------------------
 ##  Function
@@ -11,26 +15,62 @@ img_name = ["./img/casia1.jpg", "./img/casia2.jpg", "./img/casia3.jpg"]
 
 private_key, public_key, hash, bit_mask, intervals, n_bits = enrollment(img_name)
 
-print(private_key)
-print(len(str(private_key)))
+"""
+#Write data on files to store on a server
+file = open("bit_mask1.txt", "w")
+json.dump(bit_mask.tolist(), file)
+file.close()
+
+file = open("intervals1.txt", "w")
+json.dump(intervals, file)
+file.close()
+
+file = open("n_bits1.txt", "w")
+file.write(str(n_bits))
+file.close()
+
+file = open("hash1.txt", "w")
+file.write(str(hash))
+"""
+
+#print(private_key)
+#print(len(str(private_key)))
 
 #print(hash)
 
 #print(public_key)
 #print(len(str(public_key)))
 
-print("--------------------------------------------------------------------------")
+#print("--------------------------------------------------------------------------")
 
 #print(intervals)
 
-print("--------------------------------------------------------------------------")
+#print("--------------------------------------------------------------------------")
 
-key = authentication("./img/casia4.jpg", hash, bit_mask, intervals, n_bits)
 
-#print(key)
+file = open("./test/hash1.txt", "r")
+hash = file.read()
+file.close()
+
+file = open("./test/n_bits1.txt", "r")
+n_bits = int(file.read())
+file.close()
+
+file = open("./test/bit_mask1.txt", "r")
+bit_mask = json.load(file)
+file.close()
+
+file = open("./test/intervals1.txt", "r")
+intervals = json.load(file)
+print(intervals)
+
+for i in range(50):
+    key = authentication("./img/casia4.jpg", hash, bit_mask, intervals, n_bits)
+
+    print(key)
+    print("--------------------------------------------------------------------------")
 #print(len(str(key)))
 
-print(key)
 """
 eyelashes_thres = 80
 use_multiprocess = False

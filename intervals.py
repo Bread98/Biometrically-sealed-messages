@@ -47,7 +47,7 @@ def intervals(archetype, bit_mask, psnr, c, d):
     max_feature = max(features)
     feature_space_dim = int((max_feature - min_feature)*255)
     interval_range = int(np.mean(right - left))
-    n_bits = int(log2(feature_space_dim/interval_range))
+    n_bits = 4 #int(log2(feature_space_dim/interval_range)) - 1
     format_bits = "{0:0" + str(n_bits) + "b}"
 
     # Define the maximum decimal number that can be generated with n_bits
@@ -79,10 +79,16 @@ def intervals(archetype, bit_mask, psnr, c, d):
         qr = (x[0]*c - right[i]*y[0]) / (x[0] - right[i])
 
         # Choose 2 random points in the lines such that y < c (negative peaks)
-        x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+        min_x = -ql / ml
+        max_x = ((max_int + 1) - ql) / ml
+
+        x.append(random.uniform(max((min_feature + 0.0000000000000001), min_x), min((max_feature - 0.0000000000000001), max_x)))
         y.append(round(ml * x[-1] + ql))
 
-        x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+        min_x = -qr / mr
+        max_x = ((max_int + 1) - qr) / mr
+
+        x.append(random.uniform(max((min_feature + 0.0000000000000001), min_x), min((max_feature - 0.0000000000000001), max_x)))
         y.append(round(mr * x[-1] + qr))
 
         # Define the lines symmetric with respect to x = x[-1] | x = x[-2]
@@ -97,10 +103,16 @@ def intervals(archetype, bit_mask, psnr, c, d):
         while len(y) < 2**(n_bits+1):
 
             # Choose 2 random points in the defined lines
-            x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+            min_x = -ql / ml
+            max_x = ((max_int + 1) - ql) / ml
+
+            x.append(random.uniform(max((min_feature + 0.0000000000000001), min_x), min((max_feature - 0.0000000000000001), max_x)))
             y.append(round(ml * x[-1] + ql))
 
-            x.append(random.uniform(min_feature + 0.0000000000000001, max_feature - 0.0000000000000001))
+            min_x = -qr / mr
+            max_x = ((max_int + 1) - qr) / mr
+
+            x.append(random.uniform(max((min_feature + 0.0000000000000001), min_x), min((max_feature - 0.0000000000000001), max_x)))
             y.append(round(mr * x[-1] + qr))
             
             # Define the lines symmetric with respect to x = x[-1] | x = x[-2]
@@ -124,8 +136,8 @@ def intervals(archetype, bit_mask, psnr, c, d):
     return key, interval, n_bits
 
 def apply_bitmask(features, bit_mask):
-
-    row, col = np.where(bit_mask == True)
+    mask = np.array(bit_mask)
+    row, col = np.where(mask == True)
     valuable_features = []
     
     for i in range(len(row)):

@@ -45,18 +45,17 @@ def authentication(img_name, hash, bit_mask, intervals, n_bits):
                                         ciriris[2], cirpupil[1], cirpupil[0], 
                                         cirpupil[2], 64, 256)
 
-    #imshow("A_polar", polar_array)
+    #imshow("A_polar", polar_array/255)
     #waitKey(0)
 
     # Create the archtype
     arc = archetype(polar_array, block_x, block_y)
 
-    #imshow("A_Archetype", arc)
+    #imshow("A_Archetype", arc/255)
     #waitKey(0)
 
     # Apply the bitmask to extract the most reliable features
     features = apply_bitmask(arc, bit_mask)
-    #print(features)
 
     key = ""
     format_bits = "{0:0" + str(n_bits) + "b}"
@@ -69,23 +68,28 @@ def authentication(img_name, hash, bit_mask, intervals, n_bits):
         index = bisect(x, features[i])
 
         if index == 0:
-            key += format_bits.format(y[index]-1)
+            toAdd = format_bits.format(abs(y[index]-1))
         elif index == len(x):
-            key += format_bits.format(y[index-1]-1)
+            toAdd = format_bits.format(abs(y[index-1]-1))
         else: 
             x1 = x[index-1]
             x2 = x[index]
 
             if features[i] == x1:
-                key += format_bits.format(y[index-1]-1)
+                toAdd = format_bits.format(y[index-1]-1)
             elif features[i] == x2:
-                key += format_bits.format(y[index]-1)
+                toAdd = format_bits.format(y[index]-1)
             else:
                 # Linear interpolation
                 y_feature = y[index-1] + (features[i] - x[index-1]) * ((y[index] - y[index-1]) / (x[index] - x[index-1]))
                 y_feature = floor(abs(y_feature))
 
-                key += format_bits.format(y_feature)
+                toAdd = format_bits.format(y_feature)
+        
+        key += toAdd
+        
+    print(key)
+    print(int(key, 2))
 
     if hashlib.sha384(key.encode()).hexdigest() == hash:
         key_formatted = int(key, 2)

@@ -63,13 +63,13 @@ def enrollment(img_name):
 
     first_polar_array = polar_array.pop(0)
 
-    #imshow("polar", first_polar_array)
+    #imshow("polar", first_polar_array/255)
     #waitKey(0)
 
     # Create the archtype from the first image
     arc = archetype(first_polar_array, block_x, block_y)
 
-    #imshow("Archetype", arc)
+    #imshow("Archetype", arc/255)
     #waitKey(0)
 
     # Split the other images in x*y pixel blocks
@@ -89,7 +89,7 @@ def enrollment(img_name):
 
     # Format the key as a decimal value of appropriate size
     private_key = int(priv_key, 2)
-
+    
     # Generate the public key using EC
     public_key = keys.get_public_key(private_key, curve.P256)
 

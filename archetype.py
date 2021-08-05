@@ -37,7 +37,7 @@ def archetype(norm_iris, x, y):
             arc[i][j] = np.mean(norm_iris_split[z])
             z += 1
     
-    return arc
+    return arc, norm_iris_split
 
 
 ##-----------------------------------------------------------------------------

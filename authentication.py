@@ -1,35 +1,28 @@
 ##-----------------------------------------------------------------------------
 ##  Import
 ##-----------------------------------------------------------------------------
+from segment import segment
+from normalize import normalize
+from encode import encode
+
 from cv2 import imread
-from cv2 import imshow
-from cv2 import waitKey
 
 import numpy as np
 
-from segment import segment
-from normalize import normalize
-from archetype import archetype
-from intervals import apply_bitmask
-
-from bisect import bisect
-
-from math import floor
-
 import hashlib
+
+from reedsolo import RSCodec, ReedSolomonError
+
+import traceback
 
 ##-----------------------------------------------------------------------------
 ##  Function
 ##-----------------------------------------------------------------------------
-def authentication(img_name, hash, bit_mask, intervals, n_bits):
+def authentication(img_name, hash, pad):
 
     eyelashes_thres = 80
     use_multiprocess = False
-    block_x = 8
-    block_y = 4
-    #n_features = 64
-    #c = 15
-    #d = 3.5
+    nsym = 167
 
     # Read the images
     img = imread(img_name, 0)
@@ -37,62 +30,44 @@ def authentication(img_name, hash, bit_mask, intervals, n_bits):
     # Identify the iris and the pupil
     ciriris, cirpupil, img_with_noise = segment(img, eyelashes_thres, use_multiprocess)
 
-    #imshow("A_noisyeye", img_with_noise)
-    #waitKey(0)
-
     # Normalize iris region by unwraping the circular region into a rectangular block of constant dimensions
     polar_array, noise_array = normalize(img_with_noise, ciriris[1], ciriris[0], 
                                         ciriris[2], cirpupil[1], cirpupil[0], 
                                         cirpupil[2], 64, 256)
 
-    #imshow("A_polar", polar_array/255)
-    #waitKey(0)
+    template, mask = encode(polar_array, noise_array, 18, 1, 0.5)
 
-    # Create the archtype
-    arc = archetype(polar_array, block_x, block_y)
+    str_template = ""
+    for i in template:
+        for j in i:
+            str_template += str(int(j))
 
-    #imshow("A_Archetype", arc/255)
-    #waitKey(0)
+    features = int(str_template, 2).to_bytes((len(str_template) + 7) // 8, byteorder="big")
 
-    # Apply the bitmask to extract the most reliable features
-    features = apply_bitmask(arc, bit_mask)
+    padded_features = bytearray()
+    j = 0
 
-    key = ""
-    format_bits = "{0:0" + str(n_bits) + "b}"
+    chunksize = 255 - nsym #nsyze - nsym
+    for i in range(0, len(features), chunksize):
+        # Split the long message in a chunk
+        chunk = features[i:i+chunksize]
+        padded_features.extend(chunk + pad[j])
+        j += 1
 
-    for i in range(len(features)):
+    rsc = RSCodec(nsym)
 
-        x, y = intervals[i]
+    try:
+        decoded_features = rsc.decode(padded_features)[0]
+    except ReedSolomonError:
+        print(traceback.format_exc())
+        return "Wrong user!"
 
-        # Find the x-values such that x1 <= features[i] <= x2
-        index = bisect(x, features[i])
+    key = hashlib.sha512(decoded_features).hexdigest()
+    private_key = int(key, 16)
+    new_hash = hashlib.sha512(key.encode()).hexdigest()
 
-        if index == 0:
-            toAdd = format_bits.format(abs(y[index]-1))
-        elif index == len(x):
-            toAdd = format_bits.format(abs(y[index-1]-1))
-        else: 
-            x1 = x[index-1]
-            x2 = x[index]
-
-            if features[i] == x1:
-                toAdd = format_bits.format(y[index-1]-1)
-            elif features[i] == x2:
-                toAdd = format_bits.format(y[index]-1)
-            else:
-                # Linear interpolation
-                y_feature = y[index-1] + (features[i] - x[index-1]) * ((y[index] - y[index-1]) / (x[index] - x[index-1]))
-                y_feature = floor(abs(y_feature))
-
-                toAdd = format_bits.format(y_feature)
-        
-        key += toAdd
-        
-    print(key)
-    print(int(key, 2))
-
-    if hashlib.sha384(key.encode()).hexdigest() == hash:
-        key_formatted = int(key, 2)
-        return key_formatted
+    if new_hash == hash:
+        print("Successfully authenticated!")
+        return private_key
     else:
-        return "Try again!"
+        return "Wrong user!"

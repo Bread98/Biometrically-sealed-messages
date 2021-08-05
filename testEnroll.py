@@ -4,44 +4,29 @@
 import numpy as np
 
 from enrollment import enrollment
-from authentication import authentication
 
 import json
 
 ##-----------------------------------------------------------------------------
 ##  Function
 ##-----------------------------------------------------------------------------
-img_name = ["./img/casia1.jpg", "./img/casia2.jpg", "./img/casia3.jpg"]
+img_name = "./img/casia1.jpg"
 
-private_key, public_key, hash, bit_mask, intervals, n_bits = enrollment(img_name)
+hash, public_key, helper_data = enrollment(img_name)
 
 #Write data on files to store on a server
-file = open("./test/bit_mask3.txt", "w")
-json.dump(bit_mask.tolist(), file)
+file = open("./test/public_key_rs.txt", "w")
+file.write(str(public_key))
 file.close()
 
-file = open("./test/intervals3.txt", "w")
-json.dump(intervals, file)
+file = open("./test/helper_data_rs.txt", "w")
+
+for i in range(len(helper_data)):
+    helper_data[i] = helper_data[i].hex()
+
+json.dump(helper_data, file)
 file.close()
 
-file = open("./test/n_bits3.txt", "w")
-file.write(str(n_bits))
-file.close()
-
-file = open("./test/hash3.txt", "w")
+file = open("./test/hash_rs.txt", "w")
 file.write(str(hash))
 file.close()
-
-#print(private_key)
-#print(len(str(private_key)))
-
-#print(hash)
-
-#print(public_key)
-#print(len(str(public_key)))
-
-#print("--------------------------------------------------------------------------")
-
-#print(intervals)
-
-#print("--------------------------------------------------------------------------")

@@ -22,7 +22,7 @@ def enrollment(img_name):
 
     eyelashes_thres = 80
     use_multiprocess = False
-    nsym = 167
+    nsym = 169
     
 
     # Read the image

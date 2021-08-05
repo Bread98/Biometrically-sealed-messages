@@ -22,7 +22,7 @@ def authentication(img_name, hash, pad):
 
     eyelashes_thres = 80
     use_multiprocess = False
-    nsym = 167
+    nsym = 169
 
     # Read the images
     img = imread(img_name, 0)

@@ -1,0 +1,17 @@
+Use testEnroll and testAuth to test the system with a single user
+
+Use testFRR to test the system with multiple users and with images used on authentication taken from the correct user
+
+Use testFAR to test the system with multiple users and with images used on authentication taken from an impostor
+
+How to do it:
+    1. Select the import for the desired method and comment the others with "#"
+    2. Define the scheme_to_use variable, choosing between:
+        a. "q" for Quantization scheme
+        b. "f" for Fuzzy Extractor
+        c. "p" for Private Template scheme
+    3. Define the pre_processing variable, choosing between:
+        a. "classic" for the method with Integro-Differential operator and Log-Gabor filters
+        b. "enhanced" for the method with Hough transform and 2D Gabor filters
+    4. Modify the pre-defined parameters of the selected method, if necessary
+    5. Execute the file with the command: "python3 [file_to_execute].py"

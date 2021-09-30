@@ -1,0 +1,2540 @@
+Enrolled in: 0.47903649997897446 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.8090897999936715 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.295129400037695 seconds
+467475586428595535780267882134826569652817276094826553947728809544244116790692064450838277361563945639547703678807026115265549252424947708015091312854368
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.7305506999837235 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.4526022000354715 seconds
+467475586428595535780267882134826569652817276094826553947728809544244116790692064450838277361563945639547703678807026115265549252424947708015091312854368
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.43939119996502995 seconds
+Authenticated in: 5.690412900003139 seconds
+31551380399586559954137904264084970191556921189262867532270875696719770321477004111017464755055459612973648776841340763263606110383909816204329279522370
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.413119099976029 seconds
+31551380399586559954137904264084970191556921189262867532270875696719770321477004111017464755055459612973648776841340763263606110383909816204329279522370
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.82188360003056 seconds
+31551380399586559954137904264084970191556921189262867532270875696719770321477004111017464755055459612973648776841340763263606110383909816204329279522370
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.2391333999694325 seconds
+31551380399586559954137904264084970191556921189262867532270875696719770321477004111017464755055459612973648776841340763263606110383909816204329279522370
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.39307329995790496 seconds
+Authenticated in: 5.270341499999631 seconds
+3754515103287528501443335009659950605485974934143404698814543519348712405606634980207316129352015707923889994165152150951772645770679319524202927699498545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.438821099989582 seconds
+3754515103287528501443335009659950605485974934143404698814543519348712405606634980207316129352015707923889994165152150951772645770679319524202927699498545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.359742100001313 seconds
+3754515103287528501443335009659950605485974934143404698814543519348712405606634980207316129352015707923889994165152150951772645770679319524202927699498545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.955308900040109 seconds
+3754515103287528501443335009659950605485974934143404698814543519348712405606634980207316129352015707923889994165152150951772645770679319524202927699498545
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4933947999961674 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.21877169999061152 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.659299599996302 seconds
+6696912843390469842732653426501549195126252847614678661041302675679416703945654572896019487582988363778896006284009550042287908568421133174693130578889807
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.110689399996772 seconds
+6696912843390469842732653426501549195126252847614678661041302675679416703945654572896019487582988363778896006284009550042287908568421133174693130578889807
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.65109429997392 seconds
+6696912843390469842732653426501549195126252847614678661041302675679416703945654572896019487582988363778896006284009550042287908568421133174693130578889807
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4793688000063412 seconds
+Authenticated in: 6.285811799985822 seconds
+8989390633160789532129198140513215872442676462346083155100656558914707080595920316250980178476373849652872913704892578034519303442226552399059744557098087
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.775147200038191 seconds
+8989390633160789532129198140513215872442676462346083155100656558914707080595920316250980178476373849652872913704892578034519303442226552399059744557098087
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.468381500046235 seconds
+8989390633160789532129198140513215872442676462346083155100656558914707080595920316250980178476373849652872913704892578034519303442226552399059744557098087
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.660356400010642 seconds
+8989390633160789532129198140513215872442676462346083155100656558914707080595920316250980178476373849652872913704892578034519303442226552399059744557098087
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.43549780000466853 seconds
+Authenticated in: 6.025826099968981 seconds
+5478215052470825773267066194209924540821811830683483490292935145776984185700851324663165606521947176358994803268397350758879921619139088704697087408021142
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.90565680002328 seconds
+5478215052470825773267066194209924540821811830683483490292935145776984185700851324663165606521947176358994803268397350758879921619139088704697087408021142
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.932960500009358 seconds
+5478215052470825773267066194209924540821811830683483490292935145776984185700851324663165606521947176358994803268397350758879921619139088704697087408021142
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.304690300021321 seconds
+5478215052470825773267066194209924540821811830683483490292935145776984185700851324663165606521947176358994803268397350758879921619139088704697087408021142
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5367512000375427 seconds
+Authenticated in: 5.6582884000381455 seconds
+13192274724710776566124273068870826455323344216302823090196393532517201368036269728570210645454730073151434506718571058218565132852579115353498124240787630
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.565519399999175 seconds
+13192274724710776566124273068870826455323344216302823090196393532517201368036269728570210645454730073151434506718571058218565132852579115353498124240787630
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.391543100005947 seconds
+13192274724710776566124273068870826455323344216302823090196393532517201368036269728570210645454730073151434506718571058218565132852579115353498124240787630
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.740034000016749 seconds
+13192274724710776566124273068870826455323344216302823090196393532517201368036269728570210645454730073151434506718571058218565132852579115353498124240787630
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.39520890003768727 seconds
+Authenticated in: 5.437889599998016 seconds
+11824923643589539114732124732849342536596742110044237888174702047766947839744732895965794536462633477250134610696458238531144209414348585464852280583659545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.920496600039769 seconds
+11824923643589539114732124732849342536596742110044237888174702047766947839744732895965794536462633477250134610696458238531144209414348585464852280583659545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.867822200001683 seconds
+11824923643589539114732124732849342536596742110044237888174702047766947839744732895965794536462633477250134610696458238531144209414348585464852280583659545
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.455463699996471 seconds
+11824923643589539114732124732849342536596742110044237888174702047766947839744732895965794536462633477250134610696458238531144209414348585464852280583659545
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4369604000239633 seconds
+Authenticated in: 5.806549700035248 seconds
+13371150824690410640196332514988822621151646866433033307798829378968983949539572708532525350848857294495096287172696352579635446334936705465800699660528950
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.031288199999835 seconds
+13371150824690410640196332514988822621151646866433033307798829378968983949539572708532525350848857294495096287172696352579635446334936705465800699660528950
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2642515000188723 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.045896499999799 seconds
+13371150824690410640196332514988822621151646866433033307798829378968983949539572708532525350848857294495096287172696352579635446334936705465800699660528950
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4772406000411138 seconds
+Authenticated in: 5.801892799965572 seconds
+8092400503829718456813877181999762961017173222177307180392497141325305481937367721038431652845301900581030601939771796781913948540907117331785085592130792
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.724066200025845 seconds
+8092400503829718456813877181999762961017173222177307180392497141325305481937367721038431652845301900581030601939771796781913948540907117331785085592130792
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.750622500025202 seconds
+8092400503829718456813877181999762961017173222177307180392497141325305481937367721038431652845301900581030601939771796781913948540907117331785085592130792
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.5579300000099465 seconds
+8092400503829718456813877181999762961017173222177307180392497141325305481937367721038431652845301900581030601939771796781913948540907117331785085592130792
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4316535000107251 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1728558999602683 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.17349479999393225 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.16798289999132976 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.21792350005125627 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4404181999852881 seconds
+Authenticated in: 5.644303599954583 seconds
+6873865275320751204183093445544804462269062136962525995960141222760294763778030627131840384964893008289978723351471740165881420668431187054500678268430186
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.00166370003717 seconds
+6873865275320751204183093445544804462269062136962525995960141222760294763778030627131840384964893008289978723351471740165881420668431187054500678268430186
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.826020200038329 seconds
+6873865275320751204183093445544804462269062136962525995960141222760294763778030627131840384964893008289978723351471740165881420668431187054500678268430186
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.754162900033407 seconds
+6873865275320751204183093445544804462269062136962525995960141222760294763778030627131840384964893008289978723351471740165881420668431187054500678268430186
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4556760999839753 seconds
+Authenticated in: 6.641434599994682 seconds
+6876766789960410519978923105479459516069931837436706262662431580168969892661879361603135101588469269073225501380022534521281436033510694190130792499623983
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.468764799996279 seconds
+6876766789960410519978923105479459516069931837436706262662431580168969892661879361603135101588469269073225501380022534521281436033510694190130792499623983
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.23691019997932 seconds
+6876766789960410519978923105479459516069931837436706262662431580168969892661879361603135101588469269073225501380022534521281436033510694190130792499623983
+-------------------------------------------------------------------------------------------------
+Authenticated in: 8.887144800042734 seconds
+6876766789960410519978923105479459516069931837436706262662431580168969892661879361603135101588469269073225501380022534521281436033510694190130792499623983
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.491006100026425 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7615721999900416 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 8.997458400030155 seconds
+11901769474422321689029504337636709756386203889490077347116139716893719753918296786003959318313625268044347117808977376444077313864971256379346446212245254
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 7.409515900013503 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 6.214486799959559 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5626542999525554 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.616976400022395 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 7.009526900015771 seconds
+2633973875359582454883099126386854746935076556122949304645444520983706611047525294900106608508210401348954082827564805044433782513439806560695327944191259
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5913483999902382 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7433335999958217 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4232039999915287 seconds
+Authenticated in: 6.095098900026642 seconds
+1307741530292958518231419927528886945996460641288311401664217737231844704995652985350706234085893226656714820530583541894322559752984526703051263901731129
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.500331799965352 seconds
+1307741530292958518231419927528886945996460641288311401664217737231844704995652985350706234085893226656714820530583541894322559752984526703051263901731129
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.466589599964209 seconds
+1307741530292958518231419927528886945996460641288311401664217737231844704995652985350706234085893226656714820530583541894322559752984526703051263901731129
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.921460399986245 seconds
+1307741530292958518231419927528886945996460641288311401664217737231844704995652985350706234085893226656714820530583541894322559752984526703051263901731129
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.47035700001288205 seconds
+Authenticated in: 6.4792878000298515 seconds
+9639965315150179246472227987966643836183855279878542773275952689381687882725799992771319637813235960278847085793269422473892663324661439821644554682369581
+-------------------------------------------------------------------------------------------------
+Authenticated in: 7.152406700013671 seconds
+9639965315150179246472227987966643836183855279878542773275952689381687882725799992771319637813235960278847085793269422473892663324661439821644554682369581
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.655326600011904 seconds
+9639965315150179246472227987966643836183855279878542773275952689381687882725799992771319637813235960278847085793269422473892663324661439821644554682369581
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.677641799964476 seconds
+9639965315150179246472227987966643836183855279878542773275952689381687882725799992771319637813235960278847085793269422473892663324661439821644554682369581
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4159331999835558 seconds
+Authenticated in: 6.284622499952093 seconds
+2364874111343450310579081124608773191881710058633206410239376019396299684622580785156264602286275554025227842393826072577696180740123348956353645871564770
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.8319107000133954 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.751892700034659 seconds
+2364874111343450310579081124608773191881710058633206410239376019396299684622580785156264602286275554025227842393826072577696180740123348956353645871564770
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.922266100009438 seconds
+2364874111343450310579081124608773191881710058633206410239376019396299684622580785156264602286275554025227842393826072577696180740123348956353645871564770
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4070563999703154 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7248969000065699 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.049632300040685 seconds
+7393780487935265025667531909365578342322621441641143355628225768023738898607371738143328771533523704689460682211607022297047864457280292791759092229283005
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.8152712000301108 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.732902499963529 seconds
+7393780487935265025667531909365578342322621441641143355628225768023738898607371738143328771533523704689460682211607022297047864457280292791759092229283005
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.40907419996801764 seconds
+Authenticated in: 6.115770699980203 seconds
+7331062275041532545478248527223772334432453826778226496032393011945250846532435144130187224883984817533476287367247992101016079544582052864500225339859639
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.503775499993935 seconds
+7331062275041532545478248527223772334432453826778226496032393011945250846532435144130187224883984817533476287367247992101016079544582052864500225339859639
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.466367300017737 seconds
+7331062275041532545478248527223772334432453826778226496032393011945250846532435144130187224883984817533476287367247992101016079544582052864500225339859639
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.86871540005086 seconds
+7331062275041532545478248527223772334432453826778226496032393011945250846532435144130187224883984817533476287367247992101016079544582052864500225339859639
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.45946689997799695 seconds
+Authenticated in: 5.581760399974883 seconds
+2677413503646084840747771290056625648120878331258871330963775265220794601009914818299488931196407663522728163039484356952084177793935449520533696885563044
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7412278999690898 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.851387400005478 seconds
+2677413503646084840747771290056625648120878331258871330963775265220794601009914818299488931196407663522728163039484356952084177793935449520533696885563044
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.5390796000137925 seconds
+2677413503646084840747771290056625648120878331258871330963775265220794601009914818299488931196407663522728163039484356952084177793935449520533696885563044
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4459954000194557 seconds
+Authenticated in: 5.507841999991797 seconds
+12436829003597850873034070052647740493563205864811763472766495359820463748230363110786136305489383012583294574462129022914769516632907996624097818766505384
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.458344600046985 seconds
+12436829003597850873034070052647740493563205864811763472766495359820463748230363110786136305489383012583294574462129022914769516632907996624097818766505384
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.785969500022475 seconds
+12436829003597850873034070052647740493563205864811763472766495359820463748230363110786136305489383012583294574462129022914769516632907996624097818766505384
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.396895999961998 seconds
+12436829003597850873034070052647740493563205864811763472766495359820463748230363110786136305489383012583294574462129022914769516632907996624097818766505384
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.46772060001967475 seconds
+Authenticated in: 6.068204799958039 seconds
+863949016408572757836655062520509482083485605884558033341298902513205630253283267272608641010456707508488787513799641712260758247551201290471985406516707
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.896550600009505 seconds
+863949016408572757836655062520509482083485605884558033341298902513205630253283267272608641010456707508488787513799641712260758247551201290471985406516707
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.766585500037763 seconds
+863949016408572757836655062520509482083485605884558033341298902513205630253283267272608641010456707508488787513799641712260758247551201290471985406516707
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.671180000004824 seconds
+863949016408572757836655062520509482083485605884558033341298902513205630253283267272608641010456707508488787513799641712260758247551201290471985406516707
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5258635999634862 seconds
+Authenticated in: 5.805525800038595 seconds
+11573403076865907770389677544828606514712331753455281142981807325963283704710118006929799601095396616721216028556177131651836611903756903002411451245277945
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6697732000029646 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.8279290000209585 seconds
+11573403076865907770389677544828606514712331753455281142981807325963283704710118006929799601095396616721216028556177131651836611903756903002411451245277945
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.743316099978983 seconds
+11573403076865907770389677544828606514712331753455281142981807325963283704710118006929799601095396616721216028556177131651836611903756903002411451245277945
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4556521000340581 seconds
+Authenticated in: 5.731225800001994 seconds
+3338503945965831372367244429682075851545050379818545268177648248877210380683244148063378086222956703144076180747014885825955387483656199620167712036983356
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.8456775999511592 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.16065289999824 seconds
+3338503945965831372367244429682075851545050379818545268177648248877210380683244148063378086222956703144076180747014885825955387483656199620167712036983356
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.548460699967109 seconds
+3338503945965831372367244429682075851545050379818545268177648248877210380683244148063378086222956703144076180747014885825955387483656199620167712036983356
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4733708000276238 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5472066000220366 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5716416999930516 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.0596781999920495 seconds
+5184243368859889403898185648319535174134769954554851041587155191309942208949167561715717579754993567336208551473754275060529296808357559611338728217397961
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5167714999988675 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.21840110002085567 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.13440909999189898 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.12529559998074546 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1249862999538891 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1254394999705255 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4154582999763079 seconds
+Authenticated in: 6.036871899967082 seconds
+7702907354238818530295588791488662904405035077656928780593483008068973295344677953216559305769647298435012869566655740412978239969524561004820838109033001
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.356772699975409 seconds
+7702907354238818530295588791488662904405035077656928780593483008068973295344677953216559305769647298435012869566655740412978239969524561004820838109033001
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.203868400014471 seconds
+7702907354238818530295588791488662904405035077656928780593483008068973295344677953216559305769647298435012869566655740412978239969524561004820838109033001
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2164467999828048 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4034520999994129 seconds
+Authenticated in: 6.427814700000454 seconds
+6655563956583452917811008046590533369756458873086409155393293749454177567204067642466909664786974080863701453144558012252746751160145115861748137385210080
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.427318300004117 seconds
+6655563956583452917811008046590533369756458873086409155393293749454177567204067642466909664786974080863701453144558012252746751160145115861748137385210080
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.220536100037862 seconds
+6655563956583452917811008046590533369756458873086409155393293749454177567204067642466909664786974080863701453144558012252746751160145115861748137385210080
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1463225000188686 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.42621370003325865 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.19061900000087917 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.652619800006505 seconds
+1211182869427329056037412653190011688134106857229740216545685574364739433349111011401797587474276743869274981041280348535487668919432568013418604950917525
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.635217799979728 seconds
+1211182869427329056037412653190011688134106857229740216545685574364739433349111011401797587474276743869274981041280348535487668919432568013418604950917525
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.813468699983787 seconds
+1211182869427329056037412653190011688134106857229740216545685574364739433349111011401797587474276743869274981041280348535487668919432568013418604950917525
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.41459300002316013 seconds
+Authenticated in: 6.350761200010311 seconds
+7882933625912486507063792235722717629572930771713990679744250111573238307460824838856717642647468279793842716939113319148280401140703180822641431548018441
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.147583000012673 seconds
+7882933625912486507063792235722717629572930771713990679744250111573238307460824838856717642647468279793842716939113319148280401140703180822641431548018441
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.747726300032809 seconds
+7882933625912486507063792235722717629572930771713990679744250111573238307460824838856717642647468279793842716939113319148280401140703180822641431548018441
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.987776900001336 seconds
+7882933625912486507063792235722717629572930771713990679744250111573238307460824838856717642647468279793842716939113319148280401140703180822641431548018441
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.562871600035578 seconds
+Authenticated in: 7.035700400010683 seconds
+1999179133856511990931197654647185014270066700713754317885625854928283691434985092122908690122778228094689913119096148571020184007338043428590608866621514
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.942981200001668 seconds
+1999179133856511990931197654647185014270066700713754317885625854928283691434985092122908690122778228094689913119096148571020184007338043428590608866621514
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.547890199988615 seconds
+1999179133856511990931197654647185014270066700713754317885625854928283691434985092122908690122778228094689913119096148571020184007338043428590608866621514
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.084987899987027 seconds
+1999179133856511990931197654647185014270066700713754317885625854928283691434985092122908690122778228094689913119096148571020184007338043428590608866621514
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.44789310003397986 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.633715600008145 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.535198499972466 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.563234300003387 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.733298400009517 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.45771919999970123 seconds
+Authenticated in: 5.678563399997074 seconds
+9544662645559207901566705096568742004159831028104571807276020748690342679684080832910098984693139283819438992419643271724197724862843753648884419053763268
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.9187123000156134 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.422071799985133 seconds
+9544662645559207901566705096568742004159831028104571807276020748690342679684080832910098984693139283819438992419643271724197724862843753648884419053763268
+-------------------------------------------------------------------------------------------------
+Authenticated in: 7.169541499984916 seconds
+9544662645559207901566705096568742004159831028104571807276020748690342679684080832910098984693139283819438992419643271724197724862843753648884419053763268
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4383555999957025 seconds
+Authenticated in: 6.465686500014272 seconds
+4095860063528536608551632877883402456683780097641160922510905738955890575666460540620414364519298447309623565562433576700148741563065835755666407660390867
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.159587700036354 seconds
+4095860063528536608551632877883402456683780097641160922510905738955890575666460540620414364519298447309623565562433576700148741563065835755666407660390867
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.697231600002851 seconds
+4095860063528536608551632877883402456683780097641160922510905738955890575666460540620414364519298447309623565562433576700148741563065835755666407660390867
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.020138899970334 seconds
+4095860063528536608551632877883402456683780097641160922510905738955890575666460540620414364519298447309623565562433576700148741563065835755666407660390867
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.48173430003225803 seconds
+Authenticated in: 5.564392399974167 seconds
+2625718831994993373878779657601485551523172270884362881341955530768399535744046925615970792613643681644109777568849831385521275421542104249967749769620984
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 5.346114799962379 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.832512699998915 seconds
+2625718831994993373878779657601485551523172270884362881341955530768399535744046925615970792613643681644109777568849831385521275421542104249967749769620984
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.787888999970164 seconds
+2625718831994993373878779657601485551523172270884362881341955530768399535744046925615970792613643681644109777568849831385521275421542104249967749769620984
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.41644160001305863 seconds
+Authenticated in: 6.113179699983448 seconds
+381515374538783994013348700335801559812371681791316605611606339179345089998998169086279035230346203189128390291324333204933189749145819679316834473473542
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.637466999993194 seconds
+381515374538783994013348700335801559812371681791316605611606339179345089998998169086279035230346203189128390291324333204933189749145819679316834473473542
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.676150500017684 seconds
+381515374538783994013348700335801559812371681791316605611606339179345089998998169086279035230346203189128390291324333204933189749145819679316834473473542
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.342315099958796 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4585957000381313 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7383873000508174 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.8374325999757275 seconds
+12986915895475019902281545011643502584354007385904251076405457095405847643757679107083674919823623300135847269014605860509181841129770861617848372477827802
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.667940600018483 seconds
+12986915895475019902281545011643502584354007385904251076405457095405847643757679107083674919823623300135847269014605860509181841129770861617848372477827802
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.474147100001574 seconds
+12986915895475019902281545011643502584354007385904251076405457095405847643757679107083674919823623300135847269014605860509181841129770861617848372477827802
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4205673999967985 seconds
+Authenticated in: 6.323025899997447 seconds
+11812304531725018631051657657196764287534633054052890953974215711510311870304726713737942229129741108317430576767692161144795052442033218211999376514273838
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.957670799980406 seconds
+11812304531725018631051657657196764287534633054052890953974215711510311870304726713737942229129741108317430576767692161144795052442033218211999376514273838
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.087403099983931 seconds
+11812304531725018631051657657196764287534633054052890953974215711510311870304726713737942229129741108317430576767692161144795052442033218211999376514273838
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.411343100015074 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5091316999751143 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.16362890001619235 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.152300199959427 seconds
+9770571324412316333789456145239487083720846194078704540897186132343295466453772393398531948655395892525754748185033386782104452933390887410437805416751981
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1494737000321038 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7430652000475675 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4423395000048913 seconds
+Authenticated in: 6.740517599973828 seconds
+7041750339276412706130010960943566881296130498354575603651426187687780970787252452546818887119325776592384814010800430941922305193682980287379108014470989
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.61181570001645 seconds
+7041750339276412706130010960943566881296130498354575603651426187687780970787252452546818887119325776592384814010800430941922305193682980287379108014470989
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.671967700007372 seconds
+7041750339276412706130010960943566881296130498354575603651426187687780970787252452546818887119325776592384814010800430941922305193682980287379108014470989
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.429722799977753 seconds
+7041750339276412706130010960943566881296130498354575603651426187687780970787252452546818887119325776592384814010800430941922305193682980287379108014470989
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3979136999696493 seconds
+Authenticated in: 6.004117499978747 seconds
+12780220594586774558307789080040416652043073325733362306724607923108747011690112937046776735702457523455155692459286180512073896480913325078190321799016526
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.21468849998200312 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.948241100006271 seconds
+12780220594586774558307789080040416652043073325733362306724607923108747011690112937046776735702457523455155692459286180512073896480913325078190321799016526
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.205724600004032 seconds
+12780220594586774558307789080040416652043073325733362306724607923108747011690112937046776735702457523455155692459286180512073896480913325078190321799016526
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.45246890000998974 seconds
+Authenticated in: 5.893326900026295 seconds
+10218619536370452057638953099366570038623908807698320353081745216192646308803151330853602832364637490385167046009848274382363604092486975661673586426150982
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.232050399994478 seconds
+10218619536370452057638953099366570038623908807698320353081745216192646308803151330853602832364637490385167046009848274382363604092486975661673586426150982
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.512275099987164 seconds
+10218619536370452057638953099366570038623908807698320353081745216192646308803151330853602832364637490385167046009848274382363604092486975661673586426150982
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.522589700005483 seconds
+10218619536370452057638953099366570038623908807698320353081745216192646308803151330853602832364637490385167046009848274382363604092486975661673586426150982
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.42589050001697615 seconds
+Authenticated in: 6.07911759999115 seconds
+422127493426484068435122815288008279228107033003656734788030778232634119080600096447120326238522864056267540014913859080751636926604794129652406886982910
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.7962427999591455 seconds
+422127493426484068435122815288008279228107033003656734788030778232634119080600096447120326238522864056267540014913859080751636926604794129652406886982910
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.052854600013234 seconds
+422127493426484068435122815288008279228107033003656734788030778232634119080600096447120326238522864056267540014913859080751636926604794129652406886982910
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.257136099971831 seconds
+422127493426484068435122815288008279228107033003656734788030778232634119080600096447120326238522864056267540014913859080751636926604794129652406886982910
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4474375999998301 seconds
+Authenticated in: 5.498846200003754 seconds
+2498582033367334784745076695123640000502243870933123625631139834382384799272333273916198498743197888986979463050712480630106417956190500628164527579222192
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.498857900034636 seconds
+2498582033367334784745076695123640000502243870933123625631139834382384799272333273916198498743197888986979463050712480630106417956190500628164527579222192
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.834874899999704 seconds
+2498582033367334784745076695123640000502243870933123625631139834382384799272333273916198498743197888986979463050712480630106417956190500628164527579222192
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 5.124621300026774 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5160793000250123 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.31305040000006557 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.17489879997447133 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.85915340000065 seconds
+12347283587786524900401618190503915861172863151755840823030145816601104333769786329641789669873825317129459006754642645754898701255235048251435728494692183
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.7401481999550015 seconds
+12347283587786524900401618190503915861172863151755840823030145816601104333769786329641789669873825317129459006754642645754898701255235048251435728494692183
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3858959999633953 seconds
+Authenticated in: 5.772579699987546 seconds
+2841551075763046703402841381988148726476806346975485955904076339467532153507307096181062000576681816198892992777023815058755615426238672934776173198731803
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.4727032000082545 seconds
+2841551075763046703402841381988148726476806346975485955904076339467532153507307096181062000576681816198892992777023815058755615426238672934776173198731803
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.9364717999706045 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.3102407999685965 seconds
+2841551075763046703402841381988148726476806346975485955904076339467532153507307096181062000576681816198892992777023815058755615426238672934776173198731803
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4045561000239104 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.265065899991896 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.774737599946093 seconds
+5078184848533840753030932819453219366029387814504474746132235876462535895251819902044648339938379280013415759951800989981787987852939101427501618739836029
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.4825105000054464 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.028844499960542 seconds
+5078184848533840753030932819453219366029387814504474746132235876462535895251819902044648339938379280013415759951800989981787987852939101427501618739836029
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.28548069996759295 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1728667999850586 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1429100999957882 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1555926000000909 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.14046199998119846 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.40876309998566285 seconds
+Authenticated in: 5.972893999947701 seconds
+10599910881785382215584542682043227293370477794914275403772246602727767641313116822212442533955930293542339746672259415179545504001833486226372882964448267
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.0671478000003844 seconds
+10599910881785382215584542682043227293370477794914275403772246602727767641313116822212442533955930293542339746672259415179545504001833486226372882964448267
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.341809300007299 seconds
+10599910881785382215584542682043227293370477794914275403772246602727767641313116822212442533955930293542339746672259415179545504001833486226372882964448267
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.845423499995377 seconds
+10599910881785382215584542682043227293370477794914275403772246602727767641313116822212442533955930293542339746672259415179545504001833486226372882964448267
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5540798000292853 seconds
+Authenticated in: 5.523535699991044 seconds
+13272454233986913091226374686773036362843871682803003527694612838136939857999282734853548148395320553707789629190721894288509858263958617831075421136432352
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.18484379997244105 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.3062657999689691 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.41990799998166 seconds
+13272454233986913091226374686773036362843871682803003527694612838136939857999282734853548148395320553707789629190721894288509858263958617831075421136432352
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.47275910002645105 seconds
+Authenticated in: 5.7693817999679595 seconds
+4380360259077042448994856454082593543347816691804031009908472299204238263540951159823445243338134075000862656436669118378030141971861499699875711498956072
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.028856299992185 seconds
+4380360259077042448994856454082593543347816691804031009908472299204238263540951159823445243338134075000862656436669118378030141971861499699875711498956072
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.548303300049156 seconds
+4380360259077042448994856454082593543347816691804031009908472299204238263540951159823445243338134075000862656436669118378030141971861499699875711498956072
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.047919000033289 seconds
+4380360259077042448994856454082593543347816691804031009908472299204238263540951159823445243338134075000862656436669118378030141971861499699875711498956072
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.44867040001554415 seconds
+Authenticated in: 5.637234999972861 seconds
+7000743225031470576335514112917390836036067922281595363408332277448149858097700104528670284202161932967535159045674312941715274906871938232284937007516554
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2080648000119254 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.21060079999733716 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.926500100002158 seconds
+7000743225031470576335514112917390836036067922281595363408332277448149858097700104528670284202161932967535159045674312941715274906871938232284937007516554
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4417028999887407 seconds
+Authenticated in: 6.301664000027813 seconds
+10045397474316369957883384146982198512218215774698724696840704137612744986234613967254623432513482315217890798149782989425910112940104294306048347047508183
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.135084199951962 seconds
+10045397474316369957883384146982198512218215774698724696840704137612744986234613967254623432513482315217890798149782989425910112940104294306048347047508183
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.569009300030302 seconds
+10045397474316369957883384146982198512218215774698724696840704137612744986234613967254623432513482315217890798149782989425910112940104294306048347047508183
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.283988600014709 seconds
+10045397474316369957883384146982198512218215774698724696840704137612744986234613967254623432513482315217890798149782989425910112940104294306048347047508183
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4150569000048563 seconds
+Authenticated in: 5.956927999970503 seconds
+2459588008731248866435579315779802974643641505152655331805524596907036766843000877243802833431468098776382023997294267453503269966964636062531727568138294
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.4834649000549689 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5962693000328727 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.730492000002414 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4025872999918647 seconds
+Authenticated in: 6.070549800002482 seconds
+8687848179384208647394041990750531247591468863925390124007304120827366823869923081322194019357076490946468637618740024216200892386926730701599039651732819
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.627963000035379 seconds
+8687848179384208647394041990750531247591468863925390124007304120827366823869923081322194019357076490946468637618740024216200892386926730701599039651732819
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.558551300026011 seconds
+8687848179384208647394041990750531247591468863925390124007304120827366823869923081322194019357076490946468637618740024216200892386926730701599039651732819
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.328031400043983 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.47188099997583777 seconds
+Authenticated in: 5.825821899983566 seconds
+13112870489382338458049145223138175081624861140293012866882329226685207601718993396685249757077192401958177388962910603590893835457393037282721308702845076
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 5.15142490004655 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.152693599986378 seconds
+13112870489382338458049145223138175081624861140293012866882329226685207601718993396685249757077192401958177388962910603590893835457393037282721308702845076
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.316910699999426 seconds
+13112870489382338458049145223138175081624861140293012866882329226685207601718993396685249757077192401958177388962910603590893835457393037282721308702845076
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3584809000021778 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6014764999854378 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2565887999953702 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.5105358000146225 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6046719999867491 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.35685330000706017 seconds
+Authenticated in: 5.55090560001554 seconds
+5262045451348091316732681964264892832633858049636891254899021527783730116727636427558027617139183278440430767555776875917394074120353950680183843384210086
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.514060999965295 seconds
+5262045451348091316732681964264892832633858049636891254899021527783730116727636427558027617139183278440430767555776875917394074120353950680183843384210086
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.456508599978406 seconds
+5262045451348091316732681964264892832633858049636891254899021527783730116727636427558027617139183278440430767555776875917394074120353950680183843384210086
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.589659899997059 seconds
+5262045451348091316732681964264892832633858049636891254899021527783730116727636427558027617139183278440430767555776875917394074120353950680183843384210086
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.34149610000895336 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1203329999698326 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.15570890001254156 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.1349585999851115 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.12410720001207665 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4901792000164278 seconds
+Authenticated in: 5.649427799973637 seconds
+6014631445979071323866099366542132838947954089513820057571279671223147230690255564900740582604574622733486293238656695250325915059614574338526882260568491
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.24734050000552088 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.628346399986185 seconds
+6014631445979071323866099366542132838947954089513820057571279671223147230690255564900740582604574622733486293238656695250325915059614574338526882260568491
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.970058299950324 seconds
+6014631445979071323866099366542132838947954089513820057571279671223147230690255564900740582604574622733486293238656695250325915059614574338526882260568491
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4213956999592483 seconds
+Authenticated in: 5.175724199973047 seconds
+7969112814397288585885629481570316660851448406069998096418877862142338404432828566098392569431945585990633549805409485102415993892121940016415926554083917
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.426366800034884 seconds
+7969112814397288585885629481570316660851448406069998096418877862142338404432828566098392569431945585990633549805409485102415993892121940016415926554083917
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.457429600006435 seconds
+7969112814397288585885629481570316660851448406069998096418877862142338404432828566098392569431945585990633549805409485102415993892121940016415926554083917
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.46206000004895 seconds
+7969112814397288585885629481570316660851448406069998096418877862142338404432828566098392569431945585990633549805409485102415993892121940016415926554083917
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.41337869997369125 seconds
+Authenticated in: 5.405819299980067 seconds
+3550449845418845681123340142548747453753182007402253662392230624150027751370111635207715607000989735802453277924437478400771154850152910798320791683229144
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.7208021999686025 seconds
+3550449845418845681123340142548747453753182007402253662392230624150027751370111635207715607000989735802453277924437478400771154850152910798320791683229144
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.172266899957322 seconds
+3550449845418845681123340142548747453753182007402253662392230624150027751370111635207715607000989735802453277924437478400771154850152910798320791683229144
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.836106000002474 seconds
+3550449845418845681123340142548747453753182007402253662392230624150027751370111635207715607000989735802453277924437478400771154850152910798320791683229144
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.42091680003795773 seconds
+Authenticated in: 5.412953500053845 seconds
+10873604856810331598840629897964567752044982586293997169990121396043019908294698920079992012951697331982674881134120531237410514769410896896764345961872569
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.658181400038302 seconds
+10873604856810331598840629897964567752044982586293997169990121396043019908294698920079992012951697331982674881134120531237410514769410896896764345961872569
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.56219060003059 seconds
+10873604856810331598840629897964567752044982586293997169990121396043019908294698920079992012951697331982674881134120531237410514769410896896764345961872569
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.709203799953684 seconds
+10873604856810331598840629897964567752044982586293997169990121396043019908294698920079992012951697331982674881134120531237410514769410896896764345961872569
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3552734999684617 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.446131200005766 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.7105299999821 seconds
+8345210139173878727386238149227940671120052833360504662764718991602382986309130237857854856823710055135918008110420900062446649293482597833328983810368816
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.446184500004165 seconds
+8345210139173878727386238149227940671120052833360504662764718991602382986309130237857854856823710055135918008110420900062446649293482597833328983810368816
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.764542200020514 seconds
+8345210139173878727386238149227940671120052833360504662764718991602382986309130237857854856823710055135918008110420900062446649293482597833328983810368816
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.46356980002019554 seconds
+Authenticated in: 5.838406800001394 seconds
+10565572896712656276320032337484121111914473186955105590784131788244080795647486671778583270595219561727126320377586114901639977643528799144698795398149159
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.526144600007683 seconds
+10565572896712656276320032337484121111914473186955105590784131788244080795647486671778583270595219561727126320377586114901639977643528799144698795398149159
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.380417600041255 seconds
+10565572896712656276320032337484121111914473186955105590784131788244080795647486671778583270595219561727126320377586114901639977643528799144698795398149159
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.5677598000038415 seconds
+10565572896712656276320032337484121111914473186955105590784131788244080795647486671778583270595219561727126320377586114901639977643528799144698795398149159
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4767610999988392 seconds
+Authenticated in: 6.424648099986371 seconds
+7611490761304790290091649251433794530549742073213031223661818887017239047517507372352085829188285390688707919598821653275986240956122110123186162078448912
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.896134299982805 seconds
+7611490761304790290091649251433794530549742073213031223661818887017239047517507372352085829188285390688707919598821653275986240956122110123186162078448912
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.504852699988987 seconds
+7611490761304790290091649251433794530549742073213031223661818887017239047517507372352085829188285390688707919598821653275986240956122110123186162078448912
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.9630374000407755 seconds
+7611490761304790290091649251433794530549742073213031223661818887017239047517507372352085829188285390688707919598821653275986240956122110123186162078448912
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.41420399997150525 seconds
+Authenticated in: 5.554540899989661 seconds
+10723091513927937287157235218932294901428090652243420542130825275698755046459431410630571459068649732632088040610003850093742789993938614086633969351625954
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.8819750000257045 seconds
+10723091513927937287157235218932294901428090652243420542130825275698755046459431410630571459068649732632088040610003850093742789993938614086633969351625954
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7471155000384897 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.605957899999339 seconds
+10723091513927937287157235218932294901428090652243420542130825275698755046459431410630571459068649732632088040610003850093742789993938614086633969351625954
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.39897859998745844 seconds
+Authenticated in: 5.489640699990559 seconds
+8301905043333050932814457300637782830254405616958588833763581215140568219395321375582620911415543297959629399955473122983976575294172060750549163792830603
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.063249099999666 seconds
+8301905043333050932814457300637782830254405616958588833763581215140568219395321375582620911415543297959629399955473122983976575294172060750549163792830603
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.742601400008425 seconds
+8301905043333050932814457300637782830254405616958588833763581215140568219395321375582620911415543297959629399955473122983976575294172060750549163792830603
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.4478386000264436 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.39111939998110756 seconds
+Authenticated in: 5.780110299994703 seconds
+13207391927446706524381878291048654865691276211560904416673870369018921362567027458392932385784195639753602836865324768772338052441472085991146704318144748
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.170212899975013 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.934930499992333 seconds
+13207391927446706524381878291048654865691276211560904416673870369018921362567027458392932385784195639753602836865324768772338052441472085991146704318144748
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.337669900036417 seconds
+13207391927446706524381878291048654865691276211560904416673870369018921362567027458392932385784195639753602836865324768772338052441472085991146704318144748
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3965637999936007 seconds
+Authenticated in: 5.5867713000043295 seconds
+8141379134408083208861666751570591300667946623458405536716780578676084355067310052095328705784978095843935633357735194842963733675007463269778650718177503
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.836579700000584 seconds
+8141379134408083208861666751570591300667946623458405536716780578676084355067310052095328705784978095843935633357735194842963733675007463269778650718177503
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.333975900022779 seconds
+8141379134408083208861666751570591300667946623458405536716780578676084355067310052095328705784978095843935633357735194842963733675007463269778650718177503
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.586237800016534 seconds
+8141379134408083208861666751570591300667946623458405536716780578676084355067310052095328705784978095843935633357735194842963733675007463269778650718177503
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.40702079999027774 seconds
+Authenticated in: 6.515803300018888 seconds
+13280086126488188653759943226384236800431435194712094518705543886562997075806894781923537782680948577205098609306381337434122911768594271579964403098425990
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.702904000005219 seconds
+13280086126488188653759943226384236800431435194712094518705543886562997075806894781923537782680948577205098609306381337434122911768594271579964403098425990
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.424751200014725 seconds
+13280086126488188653759943226384236800431435194712094518705543886562997075806894781923537782680948577205098609306381337434122911768594271579964403098425990
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6986781000159681 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5216551999910735 seconds
+Authenticated in: 6.015810299955774 seconds
+3216722365442105350861654350250444116050481470827169889399073052924840672053806156639100965103699172335706594080401513911980231196320046452016938484870031
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.898860400018748 seconds
+3216722365442105350861654350250444116050481470827169889399073052924840672053806156639100965103699172335706594080401513911980231196320046452016938484870031
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.15836780000245199 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6969694000435993 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.3669699999736622 seconds
+Authenticated in: 6.2461398000014015 seconds
+113725873261508135910073998252137628424198018394091367047390112247669592577914728027771158661026978653650488461327013880290433108270564439866244216208496
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.788688900007401 seconds
+113725873261508135910073998252137628424198018394091367047390112247669592577914728027771158661026978653650488461327013880290433108270564439866244216208496
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.749869899998885 seconds
+113725873261508135910073998252137628424198018394091367047390112247669592577914728027771158661026978653650488461327013880290433108270564439866244216208496
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.631428900000174 seconds
+113725873261508135910073998252137628424198018394091367047390112247669592577914728027771158661026978653650488461327013880290433108270564439866244216208496
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4135249999817461 seconds
+Authenticated in: 5.353199800010771 seconds
+2564165884266023777776781119394687858728195039687850436014237041450866587733028826646613494750509944336734442192704349577000721931655672970678337335834739
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.681040800001938 seconds
+2564165884266023777776781119394687858728195039687850436014237041450866587733028826646613494750509944336734442192704349577000721931655672970678337335834739
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.538664200052153 seconds
+2564165884266023777776781119394687858728195039687850436014237041450866587733028826646613494750509944336734442192704349577000721931655672970678337335834739
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.477642100013327 seconds
+2564165884266023777776781119394687858728195039687850436014237041450866587733028826646613494750509944336734442192704349577000721931655672970678337335834739
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.38524799997685477 seconds
+Authenticated in: 5.465491299983114 seconds
+11720786578785901630777914124733676503215626141176386009023162071534604979369878140836737237589802157207783807367349469586569951531386264079832904522042493
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.679909500002395 seconds
+11720786578785901630777914124733676503215626141176386009023162071534604979369878140836737237589802157207783807367349469586569951531386264079832904522042493
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.3008844000287354 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.375523900031112 seconds
+11720786578785901630777914124733676503215626141176386009023162071534604979369878140836737237589802157207783807367349469586569951531386264079832904522042493
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.40958340000361204 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2750157000264153 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.288038599945139 seconds
+3588899039340082273818330144043725952974826258707772301902744947461488185633958719636479213238263236839048466769765529036372606985312254058371921817553095
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.322686100029387 seconds
+3588899039340082273818330144043725952974826258707772301902744947461488185633958719636479213238263236839048466769765529036372606985312254058371921817553095
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.15501700004097074 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4738798000034876 seconds
+Authenticated in: 5.846242200001143 seconds
+3273672682170069349511045430705504221680874302176051084140055380290890035254169184534102746906923521645036480850938882856750023168881007460653467804592183
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7417681999504566 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 2.2826195000088774 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.6116594999912195 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4089135000249371 seconds
+Authenticated in: 5.440265000041109 seconds
+6636523323621342259461653589782237365085375855113131365126107847940495819764368846039698627016587368811440797513341170573887015775802228606210443686973084
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.265510900004301 seconds
+6636523323621342259461653589782237365085375855113131365126107847940495819764368846039698627016587368811440797513341170573887015775802228606210443686973084
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.2487284999806434 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.263193699996918 seconds
+6636523323621342259461653589782237365085375855113131365126107847940495819764368846039698627016587368811440797513341170573887015775802228606210443686973084
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.42002110002795234 seconds
+Authenticated in: 6.156421400024556 seconds
+5551669673458392435377092993662708387144593447456291023211720075256160122487722509316233281098930584126778198012119065302938745558752071391998827925269064
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.1619078000076115 seconds
+5551669673458392435377092993662708387144593447456291023211720075256160122487722509316233281098930584126778198012119065302938745558752071391998827925269064
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.343193100008648 seconds
+5551669673458392435377092993662708387144593447456291023211720075256160122487722509316233281098930584126778198012119065302938745558752071391998827925269064
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.734775300021283 seconds
+5551669673458392435377092993662708387144593447456291023211720075256160122487722509316233281098930584126778198012119065302938745558752071391998827925269064
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.43392909999238327 seconds
+Authenticated in: 5.385345600021537 seconds
+9499368364238849053723530393171487517873246044643497235623536907809835648560130587368860663221663034888888525802205583146890771698338598591335339217295614
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7136201999965124 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.965624799951911 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.751069999998435 seconds
+9499368364238849053723530393171487517873246044643497235623536907809835648560130587368860663221663034888888525802205583146890771698338598591335339217295614
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5272682000068016 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.12101910001365468 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.263371100008953 seconds
+12698844927233484058715915265745738023673260838133403275581432602817734460251972819609231026291110068954856367363139591416449391928769445107201401063328910
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.14295880001736805 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.12980699999025092 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4404355000006035 seconds
+Authenticated in: 5.441032100003213 seconds
+4493767404438258071650305952978909904765520982243891954080888723160276998962781769881483219731016580253590693137245651261979307446358842610204096780149297
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.725468399992678 seconds
+4493767404438258071650305952978909904765520982243891954080888723160276998962781769881483219731016580253590693137245651261979307446358842610204096780149297
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.871869600028731 seconds
+4493767404438258071650305952978909904765520982243891954080888723160276998962781769881483219731016580253590693137245651261979307446358842610204096780149297
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.787500800041016 seconds
+4493767404438258071650305952978909904765520982243891954080888723160276998962781769881483219731016580253590693137245651261979307446358842610204096780149297
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.41301899997051805 seconds
+Authenticated in: 5.774475899990648 seconds
+7399894980230111928670442308731745320493993270370717090024426860762902070350105200649551377122736835762779655864630395968023644662741010149084443494543315
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.762948699994013 seconds
+7399894980230111928670442308731745320493993270370717090024426860762902070350105200649551377122736835762779655864630395968023644662741010149084443494543315
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.38116839999565855 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.298700099985581 seconds
+7399894980230111928670442308731745320493993270370717090024426860762902070350105200649551377122736835762779655864630395968023644662741010149084443494543315
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.5416223999927752 seconds
+Authenticated in: 5.6629130999790505 seconds
+7237369095574160620842696779080587601329304861422435536889246101601827546402745554363528326119493273861280474735981385459402389656372922915150112180204093
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.3599764999817125 seconds
+7237369095574160620842696779080587601329304861422435536889246101601827546402745554363528326119493273861280474735981385459402389656372922915150112180204093
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.631560300011188 seconds
+7237369095574160620842696779080587601329304861422435536889246101601827546402745554363528326119493273861280474735981385459402389656372922915150112180204093
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.762746700027492 seconds
+7237369095574160620842696779080587601329304861422435536889246101601827546402745554363528326119493273861280474735981385459402389656372922915150112180204093
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.42853029997786507 seconds
+Authenticated in: 5.864862599992193 seconds
+3318496127355659847784866703355488210712838647183523923050110781538862320383298376137981576806014634013656139121551668550690632007591328691842165415343418
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.496972399996594 seconds
+3318496127355659847784866703355488210712838647183523923050110781538862320383298376137981576806014634013656139121551668550690632007591328691842165415343418
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.976799500000197 seconds
+3318496127355659847784866703355488210712838647183523923050110781538862320383298376137981576806014634013656139121551668550690632007591328691842165415343418
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.708053299982566 seconds
+3318496127355659847784866703355488210712838647183523923050110781538862320383298376137981576806014634013656139121551668550690632007591328691842165415343418
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4234755000215955 seconds
+Authenticated in: 6.178364899998996 seconds
+8152279272506090648566049512941032960404507542021686604106138453653179554335144943614049581877797771828645925480415589957040495523592783334511326139112274
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.636518899991643 seconds
+8152279272506090648566049512941032960404507542021686604106138453653179554335144943614049581877797771828645925480415589957040495523592783334511326139112274
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.806735199992545 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.713769899972249 seconds
+8152279272506090648566049512941032960404507542021686604106138453653179554335144943614049581877797771828645925480415589957040495523592783334511326139112274
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.40031429997179657 seconds
+Authenticated in: 5.618426400003955 seconds
+9703164679591185557194915149138275914369348766501899848372123034112077799886634592935162406856766782893829962204446326062470331635259295289017288193025864
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.7449069999856874 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.537714799982496 seconds
+9703164679591185557194915149138275914369348766501899848372123034112077799886634592935162406856766782893829962204446326062470331635259295289017288193025864
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.759119899943471 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.4340157999540679 seconds
+Authenticated in: 5.1446074999985285 seconds
+279032938147694107196956107179555382057222879144476069499688372910759901268170444059550105720079751643330715425621381044479701812309682002515918036375332
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.826083199994173 seconds
+279032938147694107196956107179555382057222879144476069499688372910759901268170444059550105720079751643330715425621381044479701812309682002515918036375332
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.039418299973477 seconds
+279032938147694107196956107179555382057222879144476069499688372910759901268170444059550105720079751643330715425621381044479701812309682002515918036375332
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.684553100029007 seconds
+279032938147694107196956107179555382057222879144476069499688372910759901268170444059550105720079751643330715425621381044479701812309682002515918036375332
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.39058860001387075 seconds
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 4.084809700027108 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.15696849999949336 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.16303490003338084 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.21750369999790564 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.37605019996408373 seconds
+Authenticated in: 5.947319700033404 seconds
+13097283602238594306988689620363205543064845637359268634163581272905598117164117633108755896946789628336142052641108994759129352777836051986274785700431118
+-------------------------------------------------------------------------------------------------
+Authenticated in: 5.578259300033096 seconds
+13097283602238594306988689620363205543064845637359268634163581272905598117164117633108755896946789628336142052641108994759129352777836051986274785700431118
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 748, in rs_correct_msg
+    err_loc = rs_find_error_locator(fsynd, nsym, erase_count=len(erase_pos))
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 659, in rs_find_error_locator
+    raise ReedSolomonError("Too many errors to correct")
+reedsolo.ReedSolomonError: Too many errors to correct
+
+Authenticated in: 0.25704210001276806 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 6.221500999992713 seconds

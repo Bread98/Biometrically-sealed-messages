@@ -1,0 +1,220 @@
+Authenticated in: 1.439095299996552 seconds
+10624450229762625820453442693637187520894883306764059430346863302185503474145510014448547298899521321588534309553232382160803277658449266380407549015904544
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.3360954000090715 seconds
+10624450229762625820453442693637187520894883306764059430346863302185503474145510014448547298899521321588534309553232382160803277658449266380407549015904544
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.8103279999922961 seconds
+Authenticated in: 0.8852801000030013 seconds
+11935759637338126651986751085391118805520606972114557478849664503340513885122039275581828493863911850555176775673372541982664441480421484290649054737793271
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.8584980000014184 seconds
+11935759637338126651986751085391118805520606972114557478849664503340513885122039275581828493863911850555176775673372541982664441480421484290649054737793271
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.7216282000008505 seconds
+11935759637338126651986751085391118805520606972114557478849664503340513885122039275581828493863911850555176775673372541982664441480421484290649054737793271
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 0.9558948000048986 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Authenticated in: 1.6660945000039646 seconds
+4185888977921456124311313720925579009631903224664141378215157099205740896217974058365808658394611118614163618416832735308536851295766722355971313545631346
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.6085391000087839 seconds
+4185888977921456124311313720925579009631903224664141378215157099205740896217974058365808658394611118614163618416832735308536851295766722355971313545631346
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.9984231999987969 seconds
+Authenticated in: 1.2858321999956388 seconds
+585512660865315575473804884308120176211109987414544470551581014663136290456624060712939603745570199573046370882688020961130701950257214340257926235834581
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 1.1073453999997582 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 1.1174384000041755 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 1.0228272000094876 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Authenticated in: 1.521458300005179 seconds
+3837490088394217138926607295583364943187071768217151144214625792777065157322366102205046290443553811678820969886811982818640684448111330180787415565547786
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.4334394999896176 seconds
+3837490088394217138926607295583364943187071768217151144214625792777065157322366102205046290443553811678820969886811982818640684448111330180787415565547786
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.846906000006129 seconds
+Authenticated in: 0.9401948000013363 seconds
+7807351286777311150203542787686546000146311879802052086746964161515978152930377276007881452452602878859278836356850484471568888358011696042773023877655202
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.2839067000022624 seconds
+7807351286777311150203542787686546000146311879802052086746964161515978152930377276007881452452602878859278836356850484471568888358011696042773023877655202
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.437366900005145 seconds
+7807351286777311150203542787686546000146311879802052086746964161515978152930377276007881452452602878859278836356850484471568888358011696042773023877655202
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.4397263999999268 seconds
+7807351286777311150203542787686546000146311879802052086746964161515978152930377276007881452452602878859278836356850484471568888358011696042773023877655202
+-------------------------------------------------------------------------------------------------
+
+
+
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 0.9392516999942018 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 0.8289162000000942 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.8619510999997146 seconds
+Authenticated in: 1.0212832999968668 seconds
+7495031591306952590289871415800453544755550735566731312909029746738997282821917489721216469321035417197188070833099357169763060413896713790998615114886914
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.4371380999946268 seconds
+7495031591306952590289871415800453544755550735566731312909029746738997282821917489721216469321035417197188070833099357169763060413896713790998615114886914
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.4556365000025835 seconds
+7495031591306952590289871415800453544755550735566731312909029746738997282821917489721216469321035417197188070833099357169763060413896713790998615114886914
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 1.2421908999967854 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Authenticated in: 1.249359800000093 seconds
+5120990029421200731673048035933961696769617757747449650707648447633513021797010205422842950186409400137357767037295249324457957840821251955737434085658185
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 0.7056829999928595 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+
+
+
+Enrolled in: 0.7456511999916984 seconds
+Authenticated in: 0.7885153000097489 seconds
+6709254692137362535921107367417889317229697348226901896216975474739492589441850267580140536661391763478641599050454687025705720387877304558659336701601860
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.2313882000016747 seconds
+6709254692137362535921107367417889317229697348226901896216975474739492589441850267580140536661391763478641599050454687025705720387877304558659336701601860
+-------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/Andrea/Desktop/Main/City/Individual Project/Source code/private_template_scheme/authentication.py", line 52, in authentication
+    decoded_features = rsc.decode(padded_features)[0]
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 940, in decode
+    rmes, recc, errata_pos = rs_correct_msg(chunk, nsym, fcr=self.fcr, generator=self.generator, erase_pos=e_pos, only_erasures=only_erasures)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 750, in rs_correct_msg
+    err_pos = rs_find_errors(err_loc[::-1], len(msg_out), generator)
+  File "/home/bread98/.local/lib/python3.8/site-packages/reedsolo.py", line 694, in rs_find_errors
+    raise ReedSolomonError("Too many (or few) errors found by Chien Search for the errata locator polynomial!")
+reedsolo.ReedSolomonError: Too many (or few) errors found by Chien Search for the errata locator polynomial!
+
+Authenticated in: 0.6673372000077507 seconds
+Wrong user!
+-------------------------------------------------------------------------------------------------
+Authenticated in: 1.2958371999993687 seconds
+6709254692137362535921107367417889317229697348226901896216975474739492589441850267580140536661391763478641599050454687025705720387877304558659336701601860
